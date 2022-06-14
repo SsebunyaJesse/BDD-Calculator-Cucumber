@@ -1,0 +1,26 @@
+class Calculator{
+    constructor(x,y){
+        this.x = x;
+        this.y = y;
+    }
+    add(){
+        this.result = this.x + this.y
+    }
+    // We use the assert to verify the calculation
+
+    subtract(){
+        this.result = this.x - this.y
+
+    }
+    multiply(){
+        this.result = this.x * this.y
+    }
+    divide(){
+        this.result = this.x / this.y
+    }
+    getResult(){
+        return this.result
+    }
+
+}
+module.exports = Calculator;
